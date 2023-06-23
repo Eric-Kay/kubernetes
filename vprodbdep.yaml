@@ -28,7 +28,7 @@ spec:
               cpu: "500m"
           ports:
             - name: vprodb-port
-            - containerPort: 3306
+              containerPort: 3306
           env:
             - name: MYSQL_ROOT_PASSWORD
               valueFrom:
