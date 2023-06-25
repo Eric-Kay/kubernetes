@@ -24,7 +24,7 @@ spec:
           - name: vproapp-port
             containerPort: 8080
       initContainers:
-       - name: upgrade MYSQL  
+       - name: upgrade-mysql 
          image: busybox
          command: ['sh', '-c', 'mysql_upgrade']
        - name: init-mydb
